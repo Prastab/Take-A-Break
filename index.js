@@ -11,3 +11,14 @@ function openLink()
     });
  
 }
+function showHide(){
+    
+    var x = document.getElementById("setting");
+    if (x.style.display === "none") {
+        x.style.display = "table";
+    } else {
+        x.style.display = "none";
+    }
+   
+}
+
